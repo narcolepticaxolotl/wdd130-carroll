@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Varsity-Team';
+    src: url('/fonts/varsity_team/VarsityTeam-Bold.otf') format('truetype');}
+
+@font-face {
+    font-family: 'Garet';
+    src: url('/fonts/garet/Garet-Book.otf') format('truetype');}
+
+
+body {text-align:center; background: #e9ecef; font-family: 'Garet';}
+
+#logo_image {width: 100px;}
+
+header {
+    background: #fff;
+    /* #7caf43; */
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav a {
+    text-decoration: none;
+    color: #343a40;
+    padding: 15px 11.5vw;
+}
+nav a:hover, footer a:hover {background:#fdc100;}
+
+p {background: #343a40;}
+
+#voting {
+    display:grid;
+    grid-template-columns: 10fr 2fr 10fr;
+    grid-template-rows: 50vh;
+}
+
+#prompt {background: #e9ecef;}
+#Option1 {background: #fdc100;}
+#voting-border {background: #343a40;}
+#Option2 {background: #3ab4a6;}
+
+footer {
+    background:#fff;
+}
+footer a {
+    text-decoration: none;
+    color: #343a40;
+    padding: 15px 11.5vw;
+}
