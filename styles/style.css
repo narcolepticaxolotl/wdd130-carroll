@@ -48,3 +48,39 @@ footer a {
     color: #343a40;
     padding: 15px 11.5vw;
 }
+
+#login-page{
+    width: 25%;
+    margin: auto;
+    padding-top: 200px;
+    height: fit-content;
+    padding-bottom: 300px;
+    
+}
+
+#login-page label{
+    margin-top: 25px;
+}
+
+
+#login-page > input{
+    width: 100%;
+    justify-self: center;
+    box-sizing: border-box;
+    margin: 25px auto;
+}
+
+.submit{
+    
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+    border: none;
+}
+#create-account{
+    float: left;
+}
+#login{
+    float: right;
+}
+
